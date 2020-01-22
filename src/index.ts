@@ -25,7 +25,7 @@ const DEFAULT_OPTIONS: ImagePickerOptions = {
     reTryTitle: 're-try',
     okTitle: "I'm sure",
   },
-  tintColor: '',
+  tintColor: 'blue',
 };
 
 type Callback = (response: ImagePickerResponse) => void;
